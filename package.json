@@ -1,0 +1,36 @@
+{
+  "name": "shopverse-ecommerce",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:all": "concurrently \"npm run dev\" \"npm run server:dev\" --names \"CLIENT,SERVER\" --prefix-colors \"cyan,magenta\"",
+    "server": "node server/index.js",
+    "server:dev": "node --watch server/index.js",
+    "seed": "node server/seeder.js",
+    "seed:destroy": "node server/seeder.js --destroy",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "echo 'No lint configured'"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "embla-carousel-react": "^8.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.3.0",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "concurrently": "^10.0.5",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "vite": "^5.4.8"
+  }
+}

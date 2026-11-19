@@ -1,0 +1,58 @@
+export const categories = [
+  {
+    key: 'fashion',
+    name: 'Fashion',
+    color: 'from-pink-400 to-rose-500',
+    icon: '👗',
+    sub: ['Women', 'Men', 'Kids', 'Accessories', 'Shoes'],
+  },
+  {
+    key: 'electronics',
+    name: 'Electronics',
+    color: 'from-sky-400 to-blue-500',
+    icon: '🎧',
+    sub: ['Phones', 'Laptops', 'Audio', 'Cameras', 'Gaming'],
+  },
+  {
+    key: 'home',
+    name: 'Home & Living',
+    color: 'from-emerald-400 to-teal-500',
+    icon: '🛋️',
+    sub: ['Furniture', 'Decor', 'Bedding', 'Kitchen', 'Lighting'],
+  },
+  {
+    key: 'beauty',
+    name: 'Beauty',
+    color: 'from-fuchsia-400 to-pink-500',
+    icon: '💄',
+    sub: ['Skincare', 'Makeup', 'Hair', 'Fragrance', 'Wellness'],
+  },
+  {
+    key: 'sports',
+    name: 'Sports & Outdoors',
+    color: 'from-amber-400 to-orange-500',
+    icon: '🏃',
+    sub: ['Fitness', 'Outdoor', 'Cycling', 'Yoga', 'Team Sports'],
+  },
+  {
+    key: 'grocery',
+    name: 'Grocery',
+    color: 'from-lime-400 to-green-500',
+    icon: '🥑',
+    sub: ['Fruits', 'Snacks', 'Beverages', 'Bakery', 'Organic'],
+  },
+  {
+    key: 'toys',
+    name: 'Toys & Kids',
+    color: 'from-violet-400 to-purple-500',
+    icon: '🧸',
+    sub: ['Toys', 'Baby', 'School', 'Games', 'Books'],
+  },
+  {
+    key: 'auto',
+    name: 'Automotive',
+    color: 'from-slate-400 to-gray-600',
+    icon: '🚗',
+    sub: ['Accessories', 'Care', 'Electronics', 'Parts', 'Tools'],
+  },
+]
